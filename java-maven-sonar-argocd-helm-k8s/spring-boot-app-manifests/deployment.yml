@@ -16,6 +16,10 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
+<<<<<<< HEAD
         image: dignity26/java-sonarqube-cicd:replaceImageTag
+=======
+        image: abhishekf5/ultimate-cicd:2
+>>>>>>> e0b07191fb0c5c238b35f3ef8ef515f07dd927a4
         ports:
         - containerPort: 8080
