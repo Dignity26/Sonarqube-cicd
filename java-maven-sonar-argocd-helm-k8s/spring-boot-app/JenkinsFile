@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'echo passed'
+        sh 'echo passsed'
         //git branch: 'main', url: 'https://github.com/Dignity26/Sonarqube-cicd.git'
       }
     }
